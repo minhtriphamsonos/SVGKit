@@ -1,0 +1,10 @@
+module SVGKit {
+    umbrella header "SVGKit.h"
+    export *
+
+    explicit module Private {
+        header "SVGKDefine_Private.h"
+        header "SVGKImageRep.h"
+        header "SVGKExporterNSImage.h"
+    }
+}
