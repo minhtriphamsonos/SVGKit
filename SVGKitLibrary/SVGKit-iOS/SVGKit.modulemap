@@ -1,12 +1,6 @@
 framework module SVGKit {
   umbrella header "SVGKit.h"
 
-  explicit module Private {
-        header "SVGKDefine_Private.h"
-        header "SVGKImageRep.h"
-        header "SVGKExporterNSImage.h"
-  }
-
   export *
   module * { export * }
 }
